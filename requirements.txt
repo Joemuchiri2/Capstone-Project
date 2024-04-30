@@ -10,3 +10,5 @@ imbalanced-learn
 babel
 forex-python
 IPython
+streamlit
+
