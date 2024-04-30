@@ -31,7 +31,7 @@ st.image(img, width=None, use_column_width=True)
 
 # Read the CSV file and assign it to the 'data' variable
 try:
-    data = pd.read_csv('data.csv')
+    data = pd.read_csv('data_Index.csv')
 except FileNotFoundError:
     st.error("Dataset file not found.")
     data = None  # Assign None if file is not found to avoid NameError
