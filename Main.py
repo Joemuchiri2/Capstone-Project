@@ -25,9 +25,6 @@ st.set_page_config(
 # Project Title
 st.title('Grocery Store Forecasting Challenge For Azubian')
 
-#Read the Image
-img = Image.open(".\image.png")
-st.image(img, width=None, use_column_width=True)
 
 # Read the CSV file and assign it to the 'data' variable
 try:
